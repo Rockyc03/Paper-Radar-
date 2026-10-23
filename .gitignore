@@ -1,0 +1,34 @@
+# ---------- 本地配置：研究方向因人而异，不进仓库 ----------
+config.json
+
+# ---------- 本地凭证：绝对不要提交 ----------
+data/llm.json
+data/wecom.json
+data/wecom_log.jsonl
+
+# ---------- 运行产物 ----------
+data/reports/
+data/deepread/
+data/weekly/
+data/papers/
+data/seen.json
+data/_server.log
+
+# ---------- Python ----------
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+
+# ---------- 编辑器与系统 ----------
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# ---------- 临时文件 ----------
+*.log
+*.tmp
+_*.png
+_*.html

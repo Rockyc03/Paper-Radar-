@@ -1,0 +1,27 @@
+{
+  "_读我": "这是一份空骨架，不要直接改它。运行 python setup.py 回答几个问题，会生成 config.json。",
+  "brand": "论文雷达",
+  "field_name": "",
+  "field_scope": "多个并列的独立方向：命中任一方向即可入选，不要求交叉",
+  "audience": "该方向的研究生与研究者",
+  "daily_target": 10,
+  "deepread_per_day": 1,
+  "weekly_enabled": true,
+  "language": "zh",
+  "timezone": "Asia/Shanghai",
+  "min_pub_date": "2020-01-01",
+  "prefer_recent_days": 1095,
+  "window_days_ladder": [
+    90,
+    150,
+    240,
+    365,
+    550,
+    800
+  ],
+  "min_topic_score": 3.0,
+  "paper_per_venue_cap": 3,
+  "openalex_api_key": "",
+  "topics": [],
+  "venues": []
+}

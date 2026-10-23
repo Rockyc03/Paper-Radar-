@@ -1,0 +1,12 @@
+{
+  "base_url": "https://api.deepseek.com/v1",
+  "api_key": "在这里填你的 API Key",
+  "models": {
+    "analysis": "deepseek-v4-pro",
+    "deepread": "deepseek-v4-pro",
+    "weekly": "deepseek-v4-pro",
+    "translate": "deepseek-flash"
+  },
+  "temperature": 0.3,
+  "max_concurrency": 3
+}

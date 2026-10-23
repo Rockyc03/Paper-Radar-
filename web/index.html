@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>论文雷达 · 每日 10 篇 + 精读</title>
+<link rel="stylesheet" href="/web/style.css">
+</head>
+<body>
+<aside class="side">
+  <div class="brand">
+    <div class="logo">◉</div>
+    <div>
+      <div class="bname">论文雷达</div>
+      <div class="bsub">Paper Radar</div>
+    </div>
+  </div>
+  <nav id="nav">
+    <button class="nav-item active" data-view="report">今日汇报<span class="badge" id="badge-report"></span></button>
+    <button class="nav-item" data-view="archive">历史归档<span class="badge" id="badge-archive"></span></button>
+    <button class="nav-item" data-view="library">论文库<span class="badge" id="badge-library"></span></button>
+    <button class="nav-item" data-view="deepread">精读长文<span class="badge" id="badge-deepread"></span></button>
+    <button class="nav-item" data-view="weekly">每周综述<span class="badge" id="badge-weekly"></span></button>
+    <button class="nav-item" data-view="settings">设置与诊断</button>
+  </nav>
+  <div class="side-foot">
+    <div class="field-label">方向</div>
+    <div id="field-name" class="field-name">加载中…</div>
+    <div class="field-note" id="field-note"></div>
+  </div>
+</aside>
+
+<main class="main">
+  <header class="topbar">
+    <div>
+      <div class="kicker" id="kicker">每日汇报</div>
+      <h1 id="page-title">论文雷达</h1>
+      <div class="sub" id="page-sub"></div>
+    </div>
+    <div class="actions">
+      <select id="report-select" class="select" title="切换日期"></select>
+      <button class="btn" id="btn-open">打开 HTML 报告</button>
+      <button class="btn primary" id="btn-run">生成本期</button>
+    </div>
+  </header>
+
+  <section id="view-report" class="view"></section>
+  <section id="view-archive" class="view hidden"></section>
+  <section id="view-library" class="view hidden"></section>
+  <section id="view-deepread" class="view hidden"></section>
+  <section id="view-weekly" class="view hidden"></section>
+  <section id="view-settings" class="view hidden"></section>
+</main>
+
+<div id="toast" class="toast hidden"></div>
+<script src="/web/app.js"></script>
+</body>
+</html>
